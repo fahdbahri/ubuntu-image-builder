@@ -192,3 +192,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# Packer
+packer_cache/
+manifest.json
+
+# Sensitive files
+*.pem
+*.key
+*.secret
+
+# Local environment files
+.env
+*.local
